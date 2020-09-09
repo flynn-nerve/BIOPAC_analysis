@@ -30,6 +30,6 @@ for k=1:1:participant_num
 ```
 to:  
 ```
-for k=1:1:participant_num
+for k=5:1:participant_num
 ```
 In order to start from participant 5 (B05) instead of starting from participant 1 (B01). In the same way, you can alter which participant you finish processing, however the proper way to do that is to change your *participant_num* value instead so as to not create confusion.  
