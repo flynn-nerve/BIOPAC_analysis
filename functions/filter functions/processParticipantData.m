@@ -5,7 +5,7 @@ function processParticipantData(participant, inputBIOPACFileNames,inputEventFile
 %   through the list and for each file process the raw EMG data, look for
 %   peak data and write the resulting data to one or more output data files
 
-%% Iterate Through BIOPAC Files to Process Participant Data **NOEXO condition
+%% Iterate Through BIOPAC Files to Process Participant Data
 for k=1:numel(inputBIOPACFileNames)
     
     % Extract useful components from file name/path for use in functions

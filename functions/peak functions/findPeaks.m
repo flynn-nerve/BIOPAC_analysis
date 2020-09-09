@@ -46,7 +46,8 @@ for k=4:2:inputHeight-2
             endRow = str2double(endRowSplit(1)) * 1000;
         end
         % force startRow and endRow to be a flat int to resolve taxing warning
-        subset = inputEMGData(floor(startRow):floor(endRow),m);
+        % can also use round() function
+        subset = inputEMGData(round(startRow):round(endRow),m);
         subset_height = length(subset);
         peak = -1000;
         for n=1:subset_height

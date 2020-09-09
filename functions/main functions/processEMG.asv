@@ -1,13 +1,9 @@
 function processEMG(participant, workspacePath)
-%PROCESSEMG Input participant (ex. 'B01') and file path to workspace, get names of files to process (data and events) and run each file through the proper processing scripts according to the condition of the test trial
+%PROCESSEMG Input participant (ex. 'B01'),run normal EMG signal pro
 %   This is the main function that is called on a participant, it will
 %   iterate through all of the files within the condition (NOEXO, WEXO)
-%   folders as specified by the paths as well as the MVC files. It is
-%   important that the file structure and naming conventions are maintained
-%   otherwise the scripts will not be able to find the right files. There
-%   needs to be a corresponding events file for each EMG file in order for
-%   the script to properly do peak finding. Files will be written to new
-%   'output_files' location within workspace and organized within
+%   folders as specified by the paths. change these path variables to
+%   direct the function elsewhere if necessary.
 
 %% Set File Path Variables for Automation
 
