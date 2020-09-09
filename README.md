@@ -6,9 +6,9 @@ A package containing matlab scripts and functions to run on exskeleton data outp
 <your_workspace>
 
 .
-+-- functions
-+-- output files (*this will all be automatically generated*)
-|   +-- B##
-+-- participant data (**You need to put your files in here!!**)
-|   +-- B##
-+-- README
++-- functions  
++-- output files (*this will all be automatically generated*)  
+|   +-- B##  
++-- participant data (**You need to put your files in here!!**)  
+|   +-- B##  
++-- README  
