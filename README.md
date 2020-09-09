@@ -7,13 +7,13 @@ A package containing matlab scripts and functions to run on exskeleton data outp
 <your_workspace>
 │   README.md    
 |
-└───output files (*this will all be automatically generated*) 
+└───output files (This will all be automatically generated) 
 │   └───B## (one will be generated for each participant)
 │       └───NOEXO
 │       └───S## MVC
 │       └───WEXO
 |
-└───participant data (**You need to put your files in here!!**)
+└───participant data (You need to put your files in here!!)
     └───B## (you will create one for each participant)
         └───NOEXO
         └───S## MVC
